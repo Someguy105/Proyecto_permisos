@@ -26,6 +26,10 @@ conversion_permisos() {
   echo "r: Es leer" 
   echo "w: Es escribir"  
   echo "x: Es ejecutar"
+  echo "primer rwx es propietario"
+  echo "segundo rwx es grupo"
+  echo "tercer rwx es otros"
+  echo "- significa que r,x o w está inhabilitado"
   #Se imprime el significado de cada letra
 
   echo -e "\nIngrese los permisos del propietario (el usuario que es propietario del archivo)"
@@ -153,6 +157,10 @@ cambiar_permisos_directo() {
   echo "r: Es leer" 
   echo "w: Es escribir"  
   echo "x: Es ejecutar"
+  echo "primer rwx es propietario"
+  echo "segundo rwx es grupo"
+  echo "tercer rwx es otros"
+  echo "- significa que r,x o w está inhabilitado"
   echo -e "\n"
   echo "Explicación de qué simboliza cada número de permiso: "
   echo "0: No tiene ningún permiso (---)"
@@ -193,6 +201,10 @@ cambiar_permisos_recursivo() {
   echo "r: Es leer" 
   echo "w: Es escribir"  
   echo "x: Es ejecutar"
+  echo "primer rwx es propietario"
+  echo "segundo rwx es grupo"
+  echo "tercer rwx es otros"
+  echo "- significa que r,x o w está inhabilitado"
   echo -e "\n"
   echo "Explicación de qué simboliza cada número de permiso: "
   echo "0: No tiene ningún permiso (---)"
@@ -234,6 +246,10 @@ mostrar_permisos() {
     echo "r: Es leer" 
     echo "w: Es escribir"  
     echo "x: Es ejecutar"
+    echo "primer rwx es propietario"
+    echo "segundo rwx es grupo"
+    echo "tercer rwx es otros"
+    echo "- significa que r,x o w está inhabilitado"
     # Se imprime las propiedades del archivo, tal como, permisos, enlaces, propietario, grupo, tamaño del archivo, última fecha de modificación y nombre del archivo después de modificar los permisos. Usamos print con $ para asignar cada propiedad del archivo con su respectivo nombre y se su utiliza awk para imprimir los datos por columnas 
   else
     echo "El archivo o directorio no existe"
