@@ -1,4 +1,5 @@
-#Para inicializar o correr el script se tiene que poner en el directorio que está y ingresar el comando sudo ./permisos.sh
+#Para inicializar o correr el script se tiene que poner en el directorio que está y ingresar el comando "sudo ./permisos.sh"
+#En caso de que no se ejecute se tiene que agregar el comando chmod "+x permisos.sh"
 #!/bin/bash
 # Indica al sistema operativo que use Bash para ejecutar este script
 
@@ -25,6 +26,7 @@ conversion_permisos() {
   echo "r: Es leer" 
   echo "w: Es escribir"  
   echo "x: Es ejecutar"
+  #Se imprime el significado de cada letra
 
   echo -e "\nIngrese los permisos del propietario (el usuario que es propietario del archivo)"
   read -p "¿Quiere que el propietario pueda leer el archivo? (si/no): " propietario_leer
