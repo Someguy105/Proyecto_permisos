@@ -1,5 +1,5 @@
 #Para inicializar o correr el script se tiene que poner en el directorio que está y ingresar el comando "sudo ./permisos.sh"
-#En caso de que no se ejecute se tiene que agregar el comando chmod "+x permisos.sh"
+#En caso de que no se ejecute se tiene que agregar el comando "chmod +x permisos.sh"
 #!/bin/bash
 # Indica al sistema operativo que use Bash para ejecutar este script
 
