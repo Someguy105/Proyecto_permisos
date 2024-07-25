@@ -1,3 +1,4 @@
+#Para inicializar o correr el script se tiene que poner en el directorio que está y ingresar el comando sudo ./permisos.sh
 #!/bin/bash
 # Indica al sistema operativo que use Bash para ejecutar este script
 
